@@ -45,6 +45,7 @@ const DataGrids = lazy(() => import('src/core/DataGrid/DataGrids'))
 const userRoleObj = {
   super_admin: { icon: 'tabler:device-laptop', color: 'secondary' },
   company_admin: { icon: 'tabler:circle-check', color: 'success' },
+  new_role: { icon: 'tabler:user', color: 'warning' },
   seller: { icon: 'tabler:edit', color: 'info' },
   Vendor: { icon: 'tabler:chart-pie-2', color: 'primary' },
   subscriber: { icon: 'tabler:user', color: 'warning' }
